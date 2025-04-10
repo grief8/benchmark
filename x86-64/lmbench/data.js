@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744256216078,
+  "lastUpdate": 1744256223483,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "mem_pagefault_lat": [
@@ -40224,43 +40224,6 @@ window.BENCHMARK_DATA = {
       {
         "commit": {
           "author": {
-            "name": "Ruihan Li",
-            "username": "lrh2000",
-            "email": "lrh2000@pku.edu.cn"
-          },
-          "committer": {
-            "name": "Tate, Hongliang Tian",
-            "username": "tatetian",
-            "email": "tatetian@gmail.com"
-          },
-          "id": "c9e866626705c79509c2d6895318676d75bd075e",
-          "message": "Clarify titles for TCP connect latency",
-          "timestamp": "2025-01-08T02:20:04Z",
-          "url": "https://github.com/asterinas/asterinas/commit/c9e866626705c79509c2d6895318676d75bd075e"
-        },
-        "date": 1739408248200,
-        "tool": "customSmallerIsBetter",
-        "title": "[VFS] The cost of read (/dev/zero)",
-        "description": "lat_syscall read",
-        "display": true,
-        "benches": [
-          {
-            "name": "Average read latency on Linux",
-            "value": "0.1293",
-            "unit": "µs",
-            "extra": "linux_result"
-          },
-          {
-            "name": "Average read latency on Asterinas",
-            "value": "0.0993",
-            "unit": "µs",
-            "extra": "aster_result"
-          }
-        ]
-      },
-      {
-        "commit": {
-          "author": {
             "name": "Zejun Zhao",
             "username": "jellllly420",
             "email": "jelly.zhao.42@gmail.com"
@@ -42436,6 +42399,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "Average read latency on Asterinas",
             "value": "0.1379",
+            "unit": "µs",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabian LI",
+            "username": "grief8",
+            "email": "lifabing1349212501@gmail.com"
+          },
+          "committer": {
+            "name": "Fabian LI",
+            "username": "grief8",
+            "email": "lifabing1349212501@gmail.com"
+          },
+          "id": "794db3821cc499fdebc6c7b51e6b55caba636b39",
+          "message": "tmp",
+          "timestamp": "2025-04-10T02:59:31Z",
+          "url": "https://github.com/grief8/asterinas/commit/794db3821cc499fdebc6c7b51e6b55caba636b39"
+        },
+        "date": 1744256217208,
+        "tool": "customSmallerIsBetter",
+        "title": "[VFS] The cost of read (/dev/zero)",
+        "description": "lat_syscall read",
+        "display": true,
+        "benches": [
+          {
+            "name": "Average read latency on Linux",
+            "value": "0.1135",
+            "unit": "µs",
+            "extra": "linux_result"
+          },
+          {
+            "name": "Average read latency on Asterinas",
+            "value": "0.1380",
             "unit": "µs",
             "extra": "aster_result"
           }
