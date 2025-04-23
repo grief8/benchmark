@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745444310607,
+  "lastUpdate": 1745444318902,
   "repoUrl": "https://github.com/grief8/asterinas",
   "entries": {
     "ext2_deletes_between": [
@@ -51238,6 +51238,43 @@ window.BENCHMARK_DATA = {
           {
             "name": "The speed of updates-between on Asterinas (Ext2)",
             "value": "2.991",
+            "unit": "second",
+            "extra": "aster_result"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Fabing Li",
+            "username": "grief8",
+            "email": "lifabing.lfb@antgroup.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a038e760e2a330599e06df5b11a7ae714d128c86",
+          "message": "Update benchmark_x86.yml",
+          "timestamp": "2025-04-21T11:05:32Z",
+          "url": "https://github.com/grief8/asterinas/commit/a038e760e2a330599e06df5b11a7ae714d128c86"
+        },
+        "date": 1745444311641,
+        "tool": "customSmallerIsBetter",
+        "title": "[Ext2] The updates-between result of sqlite speedtest",
+        "description": "sqlite-speed-test: 10000 UPDATES, numeric BETWEEN, indexed",
+        "display": false,
+        "benches": [
+          {
+            "name": "The speed of updates-between on Linux (Ext2)",
+            "value": "2.388",
+            "unit": "second",
+            "extra": "linux_result"
+          },
+          {
+            "name": "The speed of updates-between on Asterinas (Ext2)",
+            "value": "3.000",
             "unit": "second",
             "extra": "aster_result"
           }
